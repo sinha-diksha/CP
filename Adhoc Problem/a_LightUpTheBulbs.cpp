@@ -47,6 +47,7 @@ The code you provided is an implementation of the problem to calculate the minim
 
 The code provides the minimum cost required to light up all the bulbs based on the given input values and operations.
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 

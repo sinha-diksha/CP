@@ -76,5 +76,8 @@ int main()
     }
     vector<int> ans = findRepeatingAndMissingNumbers(v);
     cout << ans[0] << " " << ans[1] << endl;
+
+    int r = -1 & -2;
+    cout << r << endl;
   }
 }

@@ -21,3 +21,26 @@ Sample Input 2:
 96 14
 Sample Output 2:
 2*/
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int t;
+  cin >> t;
+  while (t--)
+  {
+    int a, b;
+    cin >> a >> b;
+    int mini = min(a, b);
+    int gcd = 1;
+    for (int i = 1; i <= mini; i++)
+    {
+      if (a % i == 0 && b % i == 0)
+      {
+        gcd = i;
+      }
+    }
+    cout << gcd << endl;
+  }
+}
